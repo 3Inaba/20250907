@@ -13,9 +13,7 @@ int main(int argn, char **args)
 		inte[k]=k+1;
 
 	for(int k=0; k<=card; k++)
-	{
 		Combinar(0, k, inte, card, conjunto, 0);
-	}
 
 	return 0;
 }
